@@ -1,4 +1,4 @@
-# Single Page Applications Sprint Challenge
+sd# Single Page Applications Sprint Challenge
 
 The sprint challenge is your chance to independently work through material and build on what you learned this week. In today's project you will build a form for Lambda Eats, a website designed to bring food to hungry coders.
 
@@ -13,8 +13,17 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
 1. In 1-2 sentences, explain what React's `useRouteMatch` hook is used for.
+
+Provides access to the match object 
+If it doesn't have any arguments, it returns the closest match in the component or its parents. The main use is to create nested paths
+
 2. How would you explain form validation to someone who has never programmed before?
+
+Form validation is a sort of a check, you know when you are registering into an app and it asks for a password with a letter, a number, and a symbol, then you forget one so you get an error message saying invalid password that is form validation.
+
 3. In 1-2 sentences, define end to end testing.
+
+It is testing the flow of your application you created from when you begin coding to when you finish coding the app. it also makes sure that all the integrated pieces work together as expected.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section **will** prevent you from passing this challenge.
 
@@ -24,13 +33,13 @@ You are expected to be able to answer all these questions. Your responses contri
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] CD into the project base directory.
-- [ ] Download project dependencies by running `npm install`
-- [ ] Start up the app using `npm start`
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`. Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Create a forked copy of this project.
+- [x] Add your project manager as collaborator on Github.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] CD into the project base directory.
+- [x] Download project dependencies by running `npm install`
+- [x] Start up the app using `npm start`
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`. Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
 
 ### Task 2: Minimum Viable Product
