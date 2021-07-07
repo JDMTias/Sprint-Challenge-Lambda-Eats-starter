@@ -1,11 +1,19 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
+import axios from 'axios'
+import * as yup from 'yup'
+
+// import { Route, Switch, Link } from "react-router-dom";
 
 const App = () => {
   return (
-    <>
-      <h1>Lambda Eats</h1>
-      <p>You can remove this code and create your own header</p>
-    </>
+    null
+    // <nav>
+    //   <h1>Lambda Eats</h1>
+    //   <div>
+    //     <Link to="/">Home</Link>
+    //     <Link to="/pizzaForm">Get Pizza</Link>
+    //   </div>
+    // </nav>
   );
 };
 export default App;
